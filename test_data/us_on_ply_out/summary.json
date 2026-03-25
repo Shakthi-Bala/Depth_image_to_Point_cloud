@@ -1,0 +1,28 @@
+{
+  "created": "2026-03-25T12:46:11.368928",
+  "ply_path": "/home/alien/depth_img_to_pc/test_data/pointcloud.ply",
+  "output_dir": "/home/alien/depth_img_to_pc/test_data/us_on_ply_out",
+  "num_points": 126174,
+  "bbox_min": [
+    -4.038486957550049,
+    -3.048454999923706,
+    1.7420001029968262
+  ],
+  "bbox_max": [
+    3.937819719314575,
+    1.7840641736984253,
+    4.985000133514404
+  ],
+  "num_frames": 80,
+  "us_rays": 128,
+  "us_bins": 200,
+  "npz_file": "/home/alien/depth_img_to_pc/test_data/us_on_ply_out/ultrasound_data.npz",
+  "runtime_sec": 165.357,
+  "noise_mode": "low_noise_deterministic_fixed",
+  "notes": [
+    "Peripheral rays are no longer overly suppressed.",
+    "Distance is estimated both from exact first return and improved envelope-bin mapping.",
+    "Point support filtering is enabled via pc_min_hit_neighbors.",
+    "Hit selection uses an earliest supported cluster instead of first incidental point."
+  ]
+}
