@@ -11,8 +11,8 @@ from matplotlib.animation import FFMpegWriter
 # CONFIG
 # =========================================================
 # Change this if your new simulated file has a different name.
-NPZ_PATH_1 = "/home/alien/depth_img_to_pc/test_data/us_on_ply_out/ultrasound_data.npz"
-NPZ_PATH_2 = "/home/alien/depth_img_to_pc/test_data/ultrasound.npz"
+NPZ_PATH_1 = "/home/alien/depth_img_to_pc/Flapper_noise_profile/ultrasound_data_1.npz"
+NPZ_PATH_2 = "/home/alien/depth_img_to_pc/Flapper_noise_profile/ultrasound_data_6.npz"
 
 OUTPUT_VIDEO_PATH = "/home/alien/depth_img_to_pc/test_data/ultrasound_compare.mp4"
 
